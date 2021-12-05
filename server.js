@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-
+const PORT = 3000;
 
 const app = express();
 const server = require('http').createServer(app);
@@ -30,6 +30,6 @@ io.on('connection', socket => {
     });
 });
 
-server.listen(3000, () => {
-    console.log("Server is running on port 3000");
+server.listen(PORT, () => {
+    console.log(`Server is running on port http://localhost:${PORT}/`);
 });
