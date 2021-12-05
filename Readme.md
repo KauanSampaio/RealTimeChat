@@ -3,20 +3,18 @@
 
 Chat em tempo real, desenvolvido com NodeJS + Socket.io.
 
-## Dependências
+## Aplicação
 
-Para instalar todas as dependências, utilize o comando:
+Para testar, clone o repositório, instale todas as dependências utilizando o comando:
 
 ```bash
   npm install
 ```
 
-## Aplicação
-
-Para testar, utilização o comando:
+e rode utilizando o comando:
 
 ```bash
     npm start
 ```
 
-O projeto estará rodanddo no http://localhost:3000/
+O projeto estará rodando no http://localhost:3000/
